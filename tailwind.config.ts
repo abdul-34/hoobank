@@ -9,9 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "hero-bg": "url('/images/hero-bgColor.svg')",
+        card: "linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%)",
+      },
+      colors: {
+        green: {
+          1: "#5CE1E6",
+          2: "#33BBCF",
+        },
+        dark: {
+          1: "#00040F",
+          2: "#393939",
+          3: "#14101D",
+        },
+      },
+      boxShadow: {
+        "featured-card": "0px 20px 100px -10px #42475B1A",
       },
     },
   },
